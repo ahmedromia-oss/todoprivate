@@ -8,6 +8,20 @@
       "require": "./package-exports.js"
     }
   },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0",
+    "expo": ">=49.0.0",
+    "expo-router": ">=6.0.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": false
+    },
+    "expo-router": {
+      "optional": false
+    }
+  },
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -56,9 +70,5 @@
   "private": false,
   "keywords": [],
   "author": "ahmed romia",
-  "license": "ISC",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  }
+  "license": "ISC"
 }
