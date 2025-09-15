@@ -1,7 +1,7 @@
-import { addToDoDto } from "@/app/ToDos/DTOs/addToDoDto";
-import { ToDos } from "@/DataStore";
 import { plainToInstance } from "class-transformer";
 import { useState } from "react";
+import { addToDoDto } from "../../../app/ToDos/DTOs/addToDoDto";
+import { ToDos } from "../../../DataStore";
 import { ToDoModel } from "../models/ToDo.model";
 
 const useToDo = () => {
@@ -30,4 +30,4 @@ const useToDo = () => {
     toggleTodo,
   };
 };
-export default useToDo
+export default useToDo;

@@ -1,9 +1,8 @@
-import { ToDos } from "@/DataStore";
-import { addToDoDto } from "@/app/ToDos/DTOs/addToDoDto";
 import { createContext, ReactNode } from "react";
+import { ToDos } from "../../../DataStore";
+import { addToDoDto } from "../../../app/ToDos/DTOs/addToDoDto";
 import useToDo from "../Hooks/useToDo";
 import { ToDoContextProps } from "../Props/ToDocontext.prop";
-
 
 export const ToDoContext = createContext<ToDoContextProps>({
   ToDos: ToDos,

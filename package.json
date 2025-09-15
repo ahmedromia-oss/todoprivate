@@ -1,7 +1,7 @@
 {
   "name": "@sdn/todo",
   "main": "expo-router/entry",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "exports": {
     ".": {
       "import": "./package-exports.js",
