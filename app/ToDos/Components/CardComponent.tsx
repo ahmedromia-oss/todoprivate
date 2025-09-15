@@ -1,4 +1,3 @@
-import { Check, Trash2 } from "lucide-react-native";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { ToDoCardProps } from "../Props/ToDoCard.prop";
@@ -16,7 +15,6 @@ const Card = (
         onPress={() => onToggle(id)}
         activeOpacity={0.7}
       >
-        {completed && <Check size={14} color="#0a0a0a" strokeWidth={3} />}
       </TouchableOpacity>
 
       <View style={styles.contentContainer}>
@@ -48,7 +46,6 @@ const Card = (
         onPress={() => onDelete(id)}
         activeOpacity={0.6}
       >
-        <Trash2 size={18} color="#ff6b6b" strokeWidth={2} />
       </TouchableOpacity>
     </View>
   );

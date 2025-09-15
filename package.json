@@ -1,7 +1,10 @@
 {
   "name": "@sdn/todo",
-  "main": "expo-router/entry",
+  "main": "index.ts",
   "version": "1.0.0",
+  "expo": {
+    "entryPoint": "./expo-router/entry"
+  },
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -47,7 +50,7 @@
     "eslint-config-expo": "~10.0.0",
     "typescript": "~5.9.2"
   },
-  "private": true,
+  "private": false,
   "keywords": [],
   "author": "ahmed romia",
   "license": "ISC",
