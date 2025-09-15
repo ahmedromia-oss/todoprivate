@@ -1,4 +1,4 @@
-import { addToDoDto } from "@/app/DTOs/addToDoDto";
+import { addToDoDto } from "@/app/ToDos/DTOs/addToDoDto";
 import { ToDos } from "@/DataStore";
 import { plainToInstance } from "class-transformer";
 import { useState } from "react";

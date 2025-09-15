@@ -4,7 +4,7 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 import Card from "./ToDos/Components/CardComponent";
 import { ToDoContext } from "./ToDos/Context/ToDoContext";
 
-export default function ToDos() {
+const ToDos=() =>{
   const { ToDos, ToggleToDo, removeToDo } = useContext(ToDoContext);
 
   return (
@@ -111,3 +111,4 @@ const styles = StyleSheet.create({
     maxWidth: 280,
   },
 });
+export default ToDos

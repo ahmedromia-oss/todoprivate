@@ -1,4 +1,4 @@
-import { addToDoDto } from "@/app/DTOs/addToDoDto";
+import { addToDoDto } from "@/app/ToDos/DTOs/addToDoDto";
 import { ToDoModel } from "../models/ToDo.model";
 
 export class ToDoContextProps {

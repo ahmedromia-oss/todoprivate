@@ -1,9 +1,12 @@
 {
   "name": "@sdn/todo",
-  "main": "index.ts",
-  "version": "1.0.0",
-  "expo": {
-    "entryPoint": "./expo-router/entry"
+  "main": "expo-router/entry",
+  "version": "1.0.1",
+  "exports": {
+    ".": {
+      "import": "./package-exports.js",
+      "require": "./package-exports.js"
+    }
   },
   "scripts": {
     "start": "expo start",
@@ -50,7 +53,7 @@
     "eslint-config-expo": "~10.0.0",
     "typescript": "~5.9.2"
   },
-  "private": false,
+  "private": true,
   "keywords": [],
   "author": "ahmed romia",
   "license": "ISC",
