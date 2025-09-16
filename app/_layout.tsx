@@ -1,13 +1,9 @@
-import { createStackNavigator } from '@react-navigation/stack';
-import "react-native-reanimated";
-import ToDos from './toDos';
-const Stack = createStackNavigator();
+import { Stack } from "expo-router";
 
-const RootLayout = () =>{
+export default function RootLayout() {
   return (
-      <Stack.Navigator screenOptions={{headerShown:false}}>
-        <Stack.Screen name="ToDos" component={ToDos} />
-      </Stack.Navigator>
+    <Stack screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="toDos" />
+    </Stack>
   );
 }
-export default RootLayout
