@@ -1,8 +1,12 @@
 {
   "name": "@sdn/todo",
   "main": "expo-router/entry",
-  "version": "2.0.1",
- 
+  "version": "2.0.2",
+  "peerDependencies": {
+    "expo-router": "*",
+    "react": "*",
+    "react-native": "*"
+  },
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
