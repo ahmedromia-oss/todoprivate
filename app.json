@@ -1,5 +1,6 @@
 {
   "expo": {
+    
     "name": "packageTrial",
     "slug": "packageTrial",
     "version": "1.0.0",
@@ -27,6 +28,7 @@
     },
     "plugins": [
       "expo-router",
+      
       [
         "expo-splash-screen",
         {

@@ -1,7 +1,7 @@
 {
   "name": "@sdn/todo",
-  "main": "expo-router/entry",
-  "version": "2.0.2",
+  "main": "./node_modules/expo-router/entry.js",
+  "version": "2.0.3",
   "peerDependencies": {
     "expo-router": "*",
     "react": "*",
